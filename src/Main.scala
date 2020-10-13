@@ -3,8 +3,6 @@ import SecondLab.FunSets._
 
 object Main {
 
-
-
     def main(args: Array[String]) {
 //      First Lab Tests
 //      print(exponent(2, 0) + "\n");
@@ -16,7 +14,7 @@ object Main {
 //      var a: List[Int] = List(1,2,3)
 //      print(countChange(6, a))
 
-//      Second Lab Tests
 
+//      Second Lab Tests
     }
 }
