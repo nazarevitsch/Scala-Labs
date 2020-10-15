@@ -40,7 +40,7 @@ trait FunSets extends FunSetsInterface {
    * the set of all elements of `s` that are not in `t`.
    */
   def diff(s: FunSet, t: FunSet): FunSet =
-    (x: Int) => contains(s, x) && contains(t, x)
+    (x: Int) => contains(s, x) && !contains(t, x)
 
   /**
    * Returns the subset of `s` for which `p` holds.
